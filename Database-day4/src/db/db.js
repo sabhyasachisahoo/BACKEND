@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 
 function connectToDB(){
 
-    mongoose.connect("YourMongodbURI")
+    mongoose.connect("YourMongodbConnectionString")
     .then(()=>{
         console.log("Connected to Database");
         
